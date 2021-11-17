@@ -3,10 +3,10 @@ read -r a
 
 b=1
 
-while [ b -le 10 ]
+while [ $b -le 10 ]
 do 
-c=`express $a \* $b`
+c=`expr $a \* $b`
 echo "$a * $b = $c"
-b=$b+1
+b=`expr $b + 1`
 done
 

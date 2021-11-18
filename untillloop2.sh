@@ -6,3 +6,4 @@ do
 echo "Host $ip is still down"
 done
 echo " Host is up now"
+#modified

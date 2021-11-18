@@ -1,0 +1,11 @@
+#!/bin/bash
+echo -e "enter p value: \c"
+read -r p
+echo -e "enter q value: \c"
+read -r q 
+if [ $p -le 30 -o $q -ge 30 ];
+then
+echo "The given condition is satisfied"
+else 
+echo "The given condition is not satisfied"
+fi

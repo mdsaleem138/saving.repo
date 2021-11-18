@@ -1,0 +1,13 @@
+#!/bin/bash
+echo -e "enter the marks of physics: \c"
+read -r p
+echo -e "enter the marks of chemistry: \c"
+read -r c
+echo -e "enter the marks of biology: \c"
+read -r b
+if [ $p -ge 35 -a $c -ge 35 -a $b -ge 35 ];
+then 
+echo "congrats you have cleared the exam"
+else 
+echo "sorry you have failed the exam"
+fi

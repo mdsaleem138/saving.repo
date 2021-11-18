@@ -8,7 +8,7 @@ read -r b
 if [ $p -ge 35 -a $c -ge 35 -a $b -ge 35 ];
 then
 total=`expr $p + $c + $b`
-avg=`$total/3
+avg=`$total/3`
 echo "total marks is = $total"
 echo "avg marks is = $avg
        if [ $avg -ge 75 ];

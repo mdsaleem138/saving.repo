@@ -8,4 +8,4 @@ echo "# modified on date:" >> /scripts/$a.sh
 echo "# created by: Mohammad.Saleem" >> /scripts/$a.sh
 echo "# version:" >> /scripts/$a.sh
 
-
+#modified

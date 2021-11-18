@@ -9,3 +9,4 @@ b=`expr $a \* $i`
 echo "$a * $i = $b"
 i=`expr $i + 1`
 done
+#modified

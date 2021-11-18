@@ -1,4 +1,3 @@
-
 #!/bin/bash 
 echo -e "please enter a value: \c"
 read -r a
@@ -9,3 +8,4 @@ b=`expr $a \* $i`
 echo "$a * $i = $b"
 i=`expr $i + 1`
 done
+#modified

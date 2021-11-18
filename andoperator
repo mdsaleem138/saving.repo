@@ -11,3 +11,4 @@ echo "congrats you have cleared the exam"
 else 
 echo "sorry you have failed the exam"
 fi
+#modified

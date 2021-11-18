@@ -1,0 +1,11 @@
+#!/bin/bash
+echo -e "please enter a name of file: \c"
+read -r a 
+touch /scripts/$a.sh
+echo "#!/bin/bash" > /scripts/$a.sh
+echo "# created on date: `date`" >> /scripts/$a.sh
+echo "# modified on date:" >> /scripts/$a.sh
+echo "# created by: Mohammad.Saleem" >> /scripts/$a.sh
+echo "# version:" >> /scripts/$a.sh
+
+#modified

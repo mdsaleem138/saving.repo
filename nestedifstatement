@@ -14,13 +14,13 @@ echo "avg marks is = $avg
        if [ $avg -ge 75 ];
        then
        echo "you got distinction"
-       elseif [ $avg -ge 60 -a $avg -le 75 ];
+       elif [ $avg -ge 60 -a $avg -le 75 ];
        then
        echo "you got first class"
-       elseif [ $avg -ge 55 -a $avg -le 60 ];
+       elif [ $avg -ge 55 -a $avg -le 60 ];
        then
        echo "you got second class"
-       elseif [ $avg -ge 50 -a $avg -le 55 ];
+       elif [ $avg -ge 50 -a $avg -le 55 ];
        then 
        echo "you got third class"
        fi

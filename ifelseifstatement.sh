@@ -10,10 +10,10 @@ read -r  d
 if [  $a -gt $b -a $a -gt $c -a $a -gt $d ];
 then 
 echo "$a greater than all"
-elseif [ $b -gt $c -a $b -gt $d ];
+elif [ $b -gt $c -a $b -gt $d ];
 then
 echo "$b greater than all"
-elseif [ $c -gt $d ];
+elif [ $c -gt $d ];
 then 
 echo "$c greater than all"
 else

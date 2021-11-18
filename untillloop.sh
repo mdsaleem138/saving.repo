@@ -1,4 +1,3 @@
-
 #!/bin/bash 
 echo -e "please enter a value: \c"
 read -r a

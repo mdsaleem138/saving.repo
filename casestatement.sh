@@ -3,11 +3,11 @@ echo "enter a value"
 read -r a 
 echo "enter b value"
 read -r b
-echo "1. sum of a+b"
-echo "2. substraction of a-b"
-echo "3. multiplication of a*b"
-echo "4. division of a/b"
-echo "5. remainder of a%b"
+echo "1) sum of a+b"
+echo "2) substraction of a-b"
+echo "3) multiplication of a*b"
+echo "4) division of a/b"
+echo "5) remainder of a%b"
 read -r ch
 case $ch in
 1) echo "sum of $a + $b =`expr $a + $b`";;
